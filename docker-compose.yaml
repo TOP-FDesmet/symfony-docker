@@ -41,7 +41,7 @@ services:
         working_dir: /www/symfony
         volumes:
             - './symfony:/www/symfony'
-            - '/.docker/composer/cache:/tmp/cache'
+            - './.docker/composer/cache:/tmp/cache'
         tty: true
         stdin_open: true
         command: [ 'bash' ]
